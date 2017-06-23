@@ -15,11 +15,15 @@ import { NavController, NavParams } from 'ionic-angular';
 export class SignPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    
+
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SignPage');
+  }
+
+  backPressed() {
+    this.navCtrl.pop();
   }
 
 }
