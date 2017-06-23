@@ -1,3 +1,5 @@
+import { RegisterPage } from './../register/register';
+import { SignPage } from './../sign/sign';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
@@ -21,11 +23,12 @@ export class LoginPage {
   }
 
   loginBtnPressed() {
-    
+    this.navCtrl.push(SignPage);
+
   }
 
   registerBtnPressed() {
-
+    this.navCtrl.push(RegisterPage);
   }
 
 }
