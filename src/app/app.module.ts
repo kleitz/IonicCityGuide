@@ -1,3 +1,5 @@
+import { RegisterPage } from './../pages/register/register';
+import { SignPage } from './../pages/sign/sign';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -14,7 +16,9 @@ import { NativeStorage } from '@ionic-native/native-storage';
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SignPage,
+    RegisterPage
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,9 @@ import { NativeStorage } from '@ionic-native/native-storage';
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SignPage,
+    RegisterPage
   ],
   providers: [
     StatusBar,
