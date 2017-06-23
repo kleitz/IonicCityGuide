@@ -3,7 +3,7 @@ page-sign {
         background-image: url('../assets/img/sign_toolbar_bg.png');
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 130px;
+        min-height: 200px;
     }
     .logo {
         align-items: center;
@@ -11,7 +11,18 @@ page-sign {
         margin: 0px auto;
     }
     .main-content {
-        width: 100%;
         height: 100%;
+        margin-left: 7%;
+        margin-right: 7%;
+        text-align: center;
     }
+    .welcome {
+        font-size: 30px;
+        color: #2196f3;
+        margin-top: 5%;
+        height: 20%;
+        width: 100%;
+        text-align: center;
+    }
+    .input-content {}
 }

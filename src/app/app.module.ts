@@ -11,6 +11,7 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 
 import { NativeStorage } from '@ionic-native/native-storage';
+import { InputItemComponent } from '../components/input-item/input-item';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NativeStorage } from '@ionic-native/native-storage';
     HomePage,
     LoginPage,
     SignPage,
-    RegisterPage
+    RegisterPage,
+    InputItemComponent
   ],
   imports: [
     BrowserModule,
